@@ -1,7 +1,7 @@
 <?php 
 	
 	//define("BASE_URL", "http://localhost/tienda_virtual/");
-	const BASE_URL = "http://localhost:8080/tiendaComercial";
+	const BASE_URL = "http://localhost:8080/sisPosventas";
 	//Zona horaria
 	date_default_timezone_set('America/La_Paz');
 
