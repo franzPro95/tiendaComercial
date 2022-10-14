@@ -10,8 +10,12 @@
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
   </aside>
+
   <!-- /.control-sidebar -->
 </div>
+<script>
+  const base_url="<?=base_url()?>";
+</script>
 <!-- ./wrapper -->
 
 <!-- jQuery -->
