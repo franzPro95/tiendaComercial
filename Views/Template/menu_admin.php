@@ -26,7 +26,15 @@
         <a href="<?=base_url()?>/Proveedores" class="nav-link">
           <i class="nav-icon far fa-image"></i>
           <p>
-            PROVEEDORES
+            <em>PROVEEDORES</em>
+          </p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="<?=base_url()?>/Clientes" class="nav-link">
+          <i class="nav-icon far fa-image"></i>
+          <p>
+            <em>CLIENTES</em>
           </p>
         </a>
       </li>
@@ -34,21 +42,21 @@
         <a href="#" class="nav-link">
           <i class="nav-icon fas fa-tachometer-alt"></i>
           <p>
-            Proveedores
+            <em>PRODUCTOS</em>
             <i class="right fas fa-angle-left"></i>
           </p>
         </a>
         <ul class="nav nav-treeview">
           <li class="nav-item">
-            <a href="<?=media() ?>/index.html" class="nav-link">
+            <a href="<?=base_url()?>/Categorias" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
-              <p>Dashboard v1</p>
+              <p><em>Categorias</em></p>
             </a>
           </li>
           <li class="nav-item">
             <a href="<?=media() ?>/index2.html" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
-              <p>Dashboard v2</p>
+              <p><em>Productos</em></p>
             </a>
           </li>
           <li class="nav-item">
@@ -59,7 +67,6 @@
           </li>
         </ul>
       </li>
-      
     </ul>
   </nav>
   <!-- /.sidebar-menu -->

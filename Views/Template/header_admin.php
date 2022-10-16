@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="<?=media() ?>/plugins/fontawesome-free/css/all.min.css">
 <!-- Theme style -->
 <link rel="stylesheet" href="<?=media() ?>/dist/css/adminlte.min.css">
+<link rel="stylesheet" href="<?=media() ?>/css/css/estilos.css">
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->

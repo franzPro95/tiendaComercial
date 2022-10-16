@@ -26,5 +26,7 @@
 <script src="<?=media() ?>/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?=media() ?>/dist/js/demo.js"></script>
+<script src="<?=media() ?>/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 </html>
