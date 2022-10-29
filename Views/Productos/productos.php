@@ -1,6 +1,6 @@
 <?php 
 headerAdmin($data);
-getModal("modalCategorias",$data);
+getModal("modalProductos",$data);
 ?>
 <!-- Content Wrapper. Contains page content -->
   <!-- Content Wrapper. Contains page content -->
@@ -19,10 +19,10 @@ getModal("modalCategorias",$data);
     <!-- Default box -->
     <div class="card">
       <div class="card-header">
-        <h3 class="card-title"><em><strong>Formula de Registro de Categorias</strong></em></h3>
+        <h3 class="card-title"><em><strong>Formula de Registro de Productos</strong></em></h3>
         <br>
         <div class="row col-sm-2">
-          <button type="button" class="btn btn-block btn-dark btn-lg" onclick="modal();"><i class="fas fa-plus-circle"></i> Nueva Categoria</button>
+          <button type="button" class="btn btn-block btn-dark btn-lg" onclick="modal();"><i class="fas fa-plus-circle"></i> Nuevo Producto</button>
         </div>
       </div>
       <div class="card-body">
@@ -39,7 +39,7 @@ getModal("modalCategorias",$data);
   </section>
   <!-- /.content -->
 </div>
-<script src="<?=media() ?>/js/formulario_categorias.js"></script>
+<script src="<?=media() ?>/js/formulario_productos.js"></script>
 <?php 
  footerAdmin($data);
 ?>

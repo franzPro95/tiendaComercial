@@ -1,5 +1,5 @@
 <?php 
-	class CAtegorias extends Controllers{
+	class Categorias extends Controllers{
 		public function __construct()
 		{
 			//session_start();
